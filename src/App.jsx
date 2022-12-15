@@ -1,8 +1,11 @@
+import { Hero } from './components';
+import { hero } from './data/travigodata';
+
 function App() {
   return (
-    <div className='travigo-container'>
-      <h1>Travel Agency</h1>
-    </div>
+    <>
+      <Hero hero={hero} />
+    </>
   );
 }
 
