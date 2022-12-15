@@ -1,6 +1,6 @@
 function App() {
   return (
-    <div className='App'>
+    <div className='travigo-container'>
       <h1>Travel Agency</h1>
     </div>
   );
