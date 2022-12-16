@@ -5,6 +5,8 @@ import {
   Explore,
   Advertise,
   Pricings,
+  Banner,
+  Newslatter,
 } from './components';
 import {
   hero,
@@ -13,6 +15,7 @@ import {
   placesAPI,
   brands,
   pricingapi,
+  bannerAPI,
 } from './data/travigodata';
 
 function App() {
@@ -24,6 +27,8 @@ function App() {
       <Explore title='Explore The Beauty of World' placesAPI={placesAPI} />
       <Advertise brands={brands} />
       <Pricings pricingapi={pricingapi} />
+      <Banner bannerAPI={bannerAPI} />
+      <Newslatter />
     </>
   );
 }
