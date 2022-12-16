@@ -7,6 +7,7 @@ import {
   Pricings,
   Banner,
   Newslatter,
+  Footer,
 } from './components';
 import {
   hero,
@@ -16,6 +17,7 @@ import {
   brands,
   pricingapi,
   bannerAPI,
+  footerAPI,
 } from './data/travigodata';
 
 function App() {
@@ -29,6 +31,7 @@ function App() {
       <Pricings pricingapi={pricingapi} />
       <Banner bannerAPI={bannerAPI} />
       <Newslatter />
+      <Footer footerAPI={footerAPI} />
     </>
   );
 }
